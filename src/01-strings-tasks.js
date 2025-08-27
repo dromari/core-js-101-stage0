@@ -118,6 +118,7 @@ function repeatString(/* value, count */) {
  * @param {string} value
  * @return {string}
  *
+ *
  * @example
  *   'To be or not to be', 'not'  => 'To be or  to be'
  *   'I like legends', 'end' => 'I like legs',
