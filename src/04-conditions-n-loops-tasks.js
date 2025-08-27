@@ -53,7 +53,7 @@ function getFizzBuzz(num) {
  */
 function getFactorial(n) {
   let result = 1;
-  for (let i = 1; i <= n; i+=1) {
+  for (let i = 1; i <= n; i += 1) {
     result *= i;
   }
   return result;
@@ -72,8 +72,10 @@ function getFactorial(n) {
  *   -1,1  =>  0  ( = -1 + 0 + 1 )
  */
 function getSumBetweenNumbers(n1, n2) {
-  let result = n1;
-  for (let i = n1; i <= n2; i +=1) {
+  let result = 0;
+  const min = Math.min(n1, n2);
+  const max = Math.max(n1, n2);
+  for (let i = min; i <= max; i += 1) {
     result += i;
   }
   return result;
